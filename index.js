@@ -12,7 +12,6 @@ const CHANNEL_ID = "";
 const GUILD_ID = "";
 let GUILD;
 
-client.login(TOKEN);
 
 client.on('ready', () => {
 	client.user.setActivity("Verifying..")// you can set this to what you want
